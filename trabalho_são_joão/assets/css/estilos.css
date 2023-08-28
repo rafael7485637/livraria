@@ -1,8 +1,0 @@
-/* estilos.css */
-
-/* Reset de Estilos */
-* {
-    margin: 0; /* zerar a margem de todos os elementos */
-    padding: 0; /* zerar o espaçamento interno de todos os elementos */
-    box-sizing: border-box; /* incluir padding e borda no cálculo do tamanho do elemento */
-}
