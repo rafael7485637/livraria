@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de Livros</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Livraria Fantástica</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">início</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Autores</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="cadastro.html">cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <!--aqui vai o formulário-->
+            <form>   <!--form: criar formulario-->
+                <fieldset>  <!--agrupar elementos em um form-->
+                    <legend>cadastro de Livros</legend>
+
+                    <div class="input-container">
+                        <label for="titulo"></label> <!--label: rotulo do campo de entrada-->
+                        <input type="text" name="titulo" id="titulo" placeholder="titulo do livro" required autofocus> 
+                    </div>
+
+                <!--aqui vão os próximos campos de entrada-->
+                    <div class="input-container">
+                        <label for="autor">Autor</label>
+                        <input type="text" name="autor" id="autor" placeholder="Nome do autor" required> <!--placeholder: descrição do que vc deve ecrever-->
+                    </div>
+
+                    <div class="input-container">
+                        <label for="editora">Editora</label>
+                        <input type="text" name="editora" id="editora" placeholder="Editora" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="dtpublicacao">publicação</label>
+                        <input type="date" name="dtpublicacao" id="dtpublicacao" required> <!--o "name" serve para indentificar o bloco para depois pegar o codigo e utiliza-lo-->
+                    </div>
+
+                    <div class="input-container">
+
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
