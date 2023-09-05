@@ -48,9 +48,64 @@
                         <input type="date" name="dtpublicacao" id="dtpublicacao" required> <!--o "name" serve para indentificar o bloco para depois pegar o codigo e utiliza-lo-->
                     </div>
 
-                    <div class="input-container">
+                <div class="input-container">
+                        <label>Idioma</label>
+                        <div class="input-check">
+                            <input type="checkbox" name="idioma" value="Português" id="portugues">
+                            <label for="portugues">Português</label>
+                        </div>
 
+                    <div class="input-check">
+                        <input type="checkbox" name="idioma" value="Inglês" id="ingles"> <!--checkbox: caixa de celeção-->
+                        <label for="ingles">Inglês</label>
                     </div>
+                    <div class="input-check">
+                        <input type="checkbox" name="idioma" value="Espanhol">
+                        <label for="espanhol"> Espanhol</label>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <label for="isbn">ISBN</label>
+                    <input type="text" name="isbn" id="isbn" placeholder="ISBN do livro" pattern="\d{3}-\d{10}" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="ano">Ano</label>
+                    <input type="number" name="ano" id="ano" placeholder="ano de publicação" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="paginas">Páginas</label>
+                    <input type="number" name="paginas" id="paginas" placeholder="Numero de páginas" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="categoria">Categoria</label>
+                    <select name="categoria" id="categoria" required>
+                        <option value="">Selecione</option> <!--value: define valor da opção-->
+                        <option value="Ação">Ação</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Comédia">Comédia</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Ficção Cientifica">Ficção Cientifica</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Suspense">Suspense</option>
+                        <option value="Terror">Terror</option>
+                    </select>
+                </div>
+
+                <div class="input-container">
+                    <label>Estado do Livro</label>     <!--radio: selecionar uma unica opção de lista (os componentes radio devem ter o msm nome)-->
+                    <div class="radio-group">
+                        <input type="radio" nome="situacao" id="novo" value="Novo" required checked>    <!--Para definir um valor padrão, usamos o atributo checked-->
+                        <label for="novo">Novo</label>
+
+                        <input type="radio" name="situacao" id="usado" value="Usado" required>
+                        <label for="usado">Usado</label>
+                    </div>
+                </div>
+
                 </fieldset>
             </form>
 
