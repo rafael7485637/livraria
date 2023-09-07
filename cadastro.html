@@ -106,10 +106,29 @@
                     </div>
                 </div>
 
+                <div class="input-container">
+                    <label for="resumo">Resumo</label>
+                    <textarea name="resumo" id="resumo" placeholder="Resumo do livro" rows="5" required></textarea> <!--textarea: adicionar um campo de entrada de texto grande-->
+                </div>                                                                                              <!--rows: definir numero de linhas do campo de entrada-->
+
+                <div class="input-container">
+                    <label for="capa">Capa</label>
+                    <input type="file" name="capa" id="capa" accept="image/*"> <!--accept: tipo de aquivo q pode mandar--> 
+                </div>                                                          <!--image/* : qualquer tipo d imagem-->
+
+                <div class="actions">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+
                 </fieldset>
             </form>
 
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2023 Livraria Fantástica | Criado por rafael</p>
+    </footer>
 </body>
 </html>
