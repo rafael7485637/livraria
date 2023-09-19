@@ -1,29 +1,27 @@
-/* estilos.css */
 
-/* Reset de Estilos */
 * {
-    margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o padding padrão */
-    box-sizing: border-box; /* Faz com que o padding e a borda não aumentem o tamanho do elemento*/
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
 
 body {
-    font-family: arial, sans-serif; /*define a fonte padrâo*/
-    background-color: #f0f0f0; /*define a cor de fundo*/
+    font-family: arial, sans-serif; 
+    background-color: #f0f0f0; 
 }
 
 header {
-    background-color: #333; /* cor de fundo */
-    color: #fff; /* cor do texto */
-    text-align: center; /* alinhamento centralizado */
-    padding-top: 20px; /* espaçamento interno superior */
-    padding-bottom: 20px; /* espaçamento interno inferior */
-    padding-left: 20px; /* espaçamento interno esquerdo */
-    padding-right: 20px; /* espaçamento interno direito */
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
 }
     
 header h1 {
-    margin-bottom: 10px; /* Define um espaçamento inferior */
+    margin-bottom: 10px; 
 }
 
 header {
@@ -31,47 +29,44 @@ header {
     color: #fff;
     text-align: center;
     
-    /* assim (cima, baixo, esquerda, direita) */
-    /* padding: 20px 20px 20px 20px; */
-
-    /* ou 20px em todas as direções */
+   
     padding: 20px;
 }
 
 nav ul {
-    list-style: none; /*remove o estilo da lista*/
+    list-style: none; 
 }
 
 nav li {
-    display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
-    margin-right: 25px; /* Define um espaçamento entre os itens*/
+    display: inline; 
+    margin-right: 25px; 
 }
 
 nav a {
-    text-decoration: none; /*remove o sublinhado dos links*/
-    color: #fff; /* Define a cor do texto */
-    font-weight: bold; /* Define o peso da fonte */
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
 }
 
 main {
-    padding: 25px; /* espaçamento interno */
-    overflow: hidden; /* esconde o conteúdo que ultrapassa o tamanho do elemento */
+    padding: 25px; 
+    overflow: hidden; 
 }
 
 .card {
-    width: calc(33.33% - 20px); /* 33.33% - 20px */
-    margin: 10px; /* margem de 10px para cima e para baixo */
-    padding: 20px; /* Define um espaçamento interno */
-    background-color: gray;  /* Define a cor de fundo */
-    box-shadow: 0 2px 4px rgb(153, 151, 77, 0.1); /* Adiciona uma sombra */
-    text-align: center; /* Centraliza o texto */
-    float: left; /* Faz com que os elementos fiquem na mesma linha */
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    padding: 20px; 
+    background-color: gray; 
+    box-shadow: 0 2px 4px rgb(153, 151, 77, 0.1); 
+    text-align: center; 
+    float: left; 
     min-height: 550px;
 }
 
     .card img {
-        max-width: 100%; /* Define a largura máxima da imagem */
-        height: 300px; /* Define a altura da imagem */
+        max-width: 100%; 
+        height: 300px; 
     }
     
     .card button {
@@ -80,12 +75,12 @@ main {
         border: none;
         padding: 8px 16px;
         margin-top: 10px;
-        cursor: pointer; /* Muda o cursor do mouse */
-        transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
     }
     
     .card button:hover {
-        background-color: red; /* Muda a cor de fundo ao passar o mouse */
+        background-color: red;
     }
     
 
@@ -96,18 +91,18 @@ footer {
     padding: 1rem;
 }
 
-/*formulario*/
+
 .container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px; /*espaçamento interno todas as direções*/
+    padding: 20px; 
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*é utilizado para aplicar sombra entorno dos elementos*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 form{
-    overflow: hidden; /*esconde td q ultrapassaar o valor do elemento*/
+    overflow: hidden; 
 }
 
 form fieldset {
@@ -119,10 +114,10 @@ form fieldset {
 
 form legend{
     font-weight: bold;
-    color: #777; /*cor do elemento*/
+    color: #777; 
 }
 
-/*campos de entrada de texto*/
+
 .input-container {
     margin-bottom: 10px;
 }
@@ -144,9 +139,9 @@ input[type="number"] {
     color: #555;
 }
 
-/*componentes checkbox e radio*/
+
 .radio-group label{
-    display: inline; /*para os componentes ficarem na mesma linha*/
+    display: inline; 
     margin-right: 10px;
     font-weight: normal;   
 }
@@ -161,14 +156,14 @@ input[type="number"] {
     font-weight: normal;
 }
 
-/*componentes textarea e select*/
+
 textarea{
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical; /*permite redimencionar verticalmentee o textarea*/
-    height: 120px; /*altira inicial do textarea*/
+    resize: vertical; 
+    height: 120px; 
 }
 
 select {
@@ -178,22 +173,22 @@ select {
     border-radius: 4px;
 }
 
-/*botões*/
+
 button {
-    background-color: #007bff; /*cor fundo*/
-    color: white; /*cor texto*/
+    background-color: #007bff; 
+    color: white; 
     border: none;
-    border-radius: 4px; /*raio de borda*/
-    padding: 10px; /*espaçamento interno*/
-    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    border-radius: 4px; 
+    padding: 10px; 
+    cursor: pointer; 
 }
 
-/*botão de limpar*/
+
 button[type="reset"] {
     background-color: #6c757d;
 }
 
-/*botão de enviar*/
+
 button:hover {
     background-color: #0056b3;
 }
