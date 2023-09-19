@@ -9,16 +9,34 @@
 
 body {
     font-family: arial, sans-serif; /*define a fonte padrâo*/
-    background-color: c; /*define a cor de fundo*/
+    background-color: #f0f0f0; /*define a cor de fundo*/
 }
 
 header {
-    background-color: #333; /*define a cor de fundo*/
-    color: black; /*define a cor do texto*/
-    text-align: center; /*centraliza o texto*/
-    padding: 1rem; /*define um espaçamento interno*/
+    background-color: #333; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    text-align: center; /* alinhamento centralizado */
+    padding-top: 20px; /* espaçamento interno superior */
+    padding-bottom: 20px; /* espaçamento interno inferior */
+    padding-left: 20px; /* espaçamento interno esquerdo */
+    padding-right: 20px; /* espaçamento interno direito */
 }
     
+header h1 {
+    margin-bottom: 10px; /* Define um espaçamento inferior */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+    /* assim (cima, baixo, esquerda, direita) */
+    /* padding: 20px 20px 20px 20px; */
+
+    /* ou 20px em todas as direções */
+    padding: 20px;
+}
 
 nav ul {
     list-style: none; /*remove o estilo da lista*/
@@ -85,7 +103,7 @@ footer {
     margin: 0 auto;
     padding: 20px; /*espaçamento interno todas as direções*/
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*é utilizado para aplicar sombra entorno dos elementos*/
 }
 
 form{
